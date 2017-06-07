@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Store Sim.CSharp", "Store Sim.CSharp.csproj", "{1C160226-66ED-DD72-6B6C-E5164BBC2815}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Store Sim.CSharp.Editor", "Store Sim.CSharp.Editor.csproj", "{3D212511-FD88-605D-368F-822C4AB3E3DF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1C160226-66ED-DD72-6B6C-E5164BBC2815}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C160226-66ED-DD72-6B6C-E5164BBC2815}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C160226-66ED-DD72-6B6C-E5164BBC2815}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C160226-66ED-DD72-6B6C-E5164BBC2815}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D212511-FD88-605D-368F-822C4AB3E3DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D212511-FD88-605D-368F-822C4AB3E3DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D212511-FD88-605D-368F-822C4AB3E3DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D212511-FD88-605D-368F-822C4AB3E3DF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
