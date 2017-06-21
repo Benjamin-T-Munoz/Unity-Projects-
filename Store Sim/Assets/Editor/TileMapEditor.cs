@@ -46,6 +46,9 @@ public class TileMapEditor : Editor {
         else
         {
             EditorGUILayout.LabelField("Tile Size:", map.tileSize.x + "x" + map.tileSize.y);
+
+            map.tilePadding= EditorGUILayout.Vector2Field("Tile Padding:",map.tilePadding);
+
             EditorGUILayout.LabelField("Grid Size:", map.gridSize.x + "x" + map.gridSize.y);
             EditorGUILayout.LabelField("Pixels To Units:", map.pixlesToUnits.ToString());
             UpdateBrush(map.currentTileBrush);

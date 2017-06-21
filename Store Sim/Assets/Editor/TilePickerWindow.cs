@@ -51,6 +51,10 @@ public class TilePickerWindow : EditorWindow {
                     GUI.DrawTexture(new Rect(offset.x,offset.y,newTextureSize.x,newTextureSize.y), texture2D);
 
                     var tile = selection.tileSize * numScale;
+
+                    tile.x+= selection.tilePadding.x*numScale;
+                    tile.y += selection.tilePadding.y * numScale;
+
                     var grid = new Vector2(newTextureSize.x / tile.x, newTextureSize.y / tile.y);
                     var selectionPositon = new Vector2(tile.x * currentSelection.x+ offset.x, tile.y * currentSelection.y+offset.y);
 

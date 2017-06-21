@@ -1,10 +1,12 @@
 fileFormatVersion: 2
 guid: 95df2f8e0c59de84cb6e4c89d0abea5f
-timeCreated: 1496790457
+timeCreated: 1497475926
 licenseType: Free
 MonoImporter:
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - texture2D: {fileID: 2800000, guid: 25b6a4f16f518ab42ac32fb3d7b6b28a, type: 3}
+  - tiles: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
