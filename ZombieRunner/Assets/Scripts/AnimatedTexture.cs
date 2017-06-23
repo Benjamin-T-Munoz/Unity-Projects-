@@ -8,7 +8,7 @@ public class AnimatedTexture : MonoBehaviour {
     private Material material;// mateial place holder
 
 
-	// Use this for initialization
+
 	void Start () {
 
         material = GetComponent<Renderer>().material;// gets reffrence to material attached to quad
@@ -17,7 +17,6 @@ public class AnimatedTexture : MonoBehaviour {
 	
 	}
 	
-	// Update is called once per frame
 	void Update () {
 
         offset += (speed * Time.deltaTime); // increments the offset

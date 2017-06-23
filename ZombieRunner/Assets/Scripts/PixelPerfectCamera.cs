@@ -5,7 +5,7 @@ public class PixelPerfectCamera : MonoBehaviour {
 
     public static float pixlesToUnits = 1f;// Ratio of Pixles to number of units 
     public static float scale = 1f;
-    public Vector2 nativeReselution = new Vector2(240, 140); //Intended Resolution
+    public Vector2 nativeReselution = new Vector2(240, 160); //Intended Resolution
 
 	void Awake () {
 
