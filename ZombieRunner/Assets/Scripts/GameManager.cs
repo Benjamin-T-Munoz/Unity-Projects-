@@ -17,6 +17,11 @@ public class GameManager : MonoBehaviour {
     private float timeElapsed;
     private float bestTime;
     private bool beatBestTime;
+    //
+
+    public Image Logo;
+    public bool firstStart;
+   
 
     //
     private GameObject player;
@@ -30,6 +35,7 @@ public class GameManager : MonoBehaviour {
         floor = GameObject.Find("ForeGround");
         spawner = GameObject.Find("Spawner").GetComponent<Spawner>();
         timeManager = GetComponent<TimeManager>();
+        firstStart = true;
     }
 
 
@@ -79,12 +85,16 @@ public class GameManager : MonoBehaviour {
             var textColor = beatBestTime ? "#FF0" : "#FFF";
 
             scoreText.text = "TIME: " + FormatTime(timeElapsed) + "\n<color="+textColor+">BEST: " + FormatTime(bestTime)+"</color>";
+
+
         }
 
         else
         {
             timeElapsed += Time.deltaTime;
             scoreText.text = "TIME: " + FormatTime(timeElapsed);
+
+                DestroyObject(Logo);
         }
 
 
@@ -131,6 +141,8 @@ public class GameManager : MonoBehaviour {
         timeElapsed = 0;
 
         beatBestTime = false;
+
+        firstStart = false;
     }
 
     private string FormatTime(float value)
