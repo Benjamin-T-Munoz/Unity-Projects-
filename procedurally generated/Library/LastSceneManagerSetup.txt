@@ -1,0 +1,4 @@
+sceneSetups:
+- path: C:/Users/Benjamin/Documents/Unity-Projects/Tile Map Editor/Assets/Scenes/TileMapEdittorStaging.unity
+  isLoaded: 1
+  isActive: 1
